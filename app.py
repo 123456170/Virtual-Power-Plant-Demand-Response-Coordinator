@@ -994,7 +994,7 @@ CSS_T = Template("""
  radial-gradient(900px 500px at -10% 110%, $tint_indigo, transparent 55%), var(--bg0);
  color:var(--ink);font-family:"Segoe UI",system-ui,-apple-system,sans-serif;}
 [data-testid="stHeader"]{background:transparent;}
-#MainMenu,footer,[data-testid="stToolbar"]{visibility:hidden;}
+footer{visibility:hidden;}
 .block-container{padding-top:1.1rem;max-width:1440px;}
 h1,h2,h3,h4{color:var(--ink);letter-spacing:-0.01em;}
 p,span,label,li{color:var(--dim);}
